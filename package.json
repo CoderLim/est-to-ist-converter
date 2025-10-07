@@ -1,7 +1,25 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "est-to-ist-converter",
+  "version": "1.0.0",
+  "description": "A modern, real-time EST to IST time zone converter for seamless cross-continental collaboration",
+  "private": false,
+  "homepage": "https://esttoist.online",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/est-to-ist-converter.git"
+  },
+  "keywords": [
+    "est",
+    "ist",
+    "timezone",
+    "converter",
+    "time",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "author": "EST to IST Converter Team",
+  "license": "MIT",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
