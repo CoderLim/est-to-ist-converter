@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Free EST to IST converter tool. Instantly convert Eastern Standard Time to Indian Time. Accurate time zone conversion for EST to IST.",
   keywords: "est to ist, est to ist converter, eastern time to indian time, time zone converter, est ist conversion",
+  alternates: {
+    canonical: "https://esttoist.online",
+  },
   icons: {
     icon: [
       { url: "/favicon-16x16.svg", sizes: "16x16", type: "image/svg+xml" },
