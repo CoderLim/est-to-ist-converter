@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
+import Script from "next/script"
 import "./globals.css"
 import { Suspense } from "react"
 
@@ -41,6 +42,11 @@ export default function RootLayout({
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} antialiased`}>
         <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
         <Analytics />
+        <Script
+          defer
+          data-domain="esttoist.online"
+          src="https://app.pageview.app/js/script.js"
+        />
       </body>
     </html>
   )
