@@ -12,6 +12,16 @@ export const metadata: Metadata = {
   description:
     "Free EST to IST converter tool. Instantly convert Eastern Standard Time to Indian Time. Accurate time zone conversion for EST to IST.",
   keywords: "est to ist, est to ist converter, eastern time to indian time, time zone converter, est ist conversion",
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.svg", sizes: "16x16", type: "image/svg+xml" },
+      { url: "/favicon-32x32.svg", sizes: "32x32", type: "image/svg+xml" },
+      { url: "/favicon.svg", sizes: "any", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.svg", sizes: "180x180", type: "image/svg+xml" },
+    ],
+  },
   openGraph: {
     title: "EST to IST Converter - Convert Eastern Time to Indian Time",
     description: "Free EST to IST converter tool. Instantly convert Eastern Standard Time to Indian Time.",
