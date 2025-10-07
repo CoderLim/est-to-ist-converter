@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { getTranslations } from "@/lib/i18n/config"
+import { Github } from "lucide-react"
 
 export function Footer() {
   const t = getTranslations("en")
@@ -53,6 +54,17 @@ export function Footer() {
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {t.common.email}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/CoderLim/est-to-ist-converter"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  <Github className="h-4 w-4" />
+                  GitHub
                 </a>
               </li>
             </ul>
