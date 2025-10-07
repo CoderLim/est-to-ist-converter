@@ -42,6 +42,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    'sitemap': 'https://esttoist.online/sitemap.xml',
+  },
     generator: 'v0.app'
 }
 
